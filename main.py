@@ -8,7 +8,7 @@ init(autoreset=True)
 files = []
 
 for file in os.listdir():
-    if file == "main.py" or file == "decrypt.py" or file=="key.key":
+    if file == "main.py" or file == "decrypt.py" or file=="key.key" or file == "README.md":
         continue
     else:
         if os.path.isfile(file):
